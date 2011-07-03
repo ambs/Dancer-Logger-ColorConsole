@@ -1,5 +1,11 @@
 Revision history for Dancer-Logger-ColorConsole
 
-0.01    Date/time
-        First version, released on an unsuspecting world.
+0.0001  Sun Jul  3 19:54:19 WEST 2011
+        First version, released on an unsuspecting world of Dancers.
+        - include defaults for the four default levels of logging
+          (code/debug/warn/error)
+        - support coloring using regular expressions
+        - add basic default coloring for response codes (2XX, 4XX and 5XX)
+        - support disabling the default coloring schema
+
 
