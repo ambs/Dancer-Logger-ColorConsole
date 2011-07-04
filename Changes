@@ -1,5 +1,9 @@
 Revision history for Dancer-Logger-ColorConsole
 
+0.0002  Mon Jul  4 18:04:14 WEST 2011
+        - add a proper Changes file
+        - color HTTP requests
+
 0.0001  Sun Jul  3 19:54:19 WEST 2011
         First version, released on an unsuspecting world of Dancers.
         - include defaults for the four default levels of logging

@@ -5,7 +5,7 @@ use base 'Dancer::Logger::Abstract';
 use Dancer::Config 'setting';
 use Term::ANSIColor;
 
-our $VERSION = '0.0001';
+our $VERSION = '0.0002';
 
 sub _log {
     my ($self, $level, $message) = @_;
@@ -30,6 +30,7 @@ sub init {
           (
            { re => 'response: 2\d\d',    color => 'bright_green' },
            { re => 'response: [45]\d\d', color => 'bright_red'   },
+           { re => '(?:GET|POST|PUT|DELETE) \S+', color => 'bright_blue'  },
           );
     }
 
