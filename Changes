@@ -1,5 +1,8 @@
 Revision history for Dancer-Logger-ColorConsole
 
+0.0003  Fri Jun  8 22:04:09 WEST 2012
+        - fix POD encoding.
+
 0.0002  Mon Jul  4 18:04:14 WEST 2011
         - add a proper Changes file
         - color HTTP requests
