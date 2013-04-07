@@ -1,5 +1,8 @@
 Revision history for Dancer-Logger-ColorConsole
 
+0.0004  Sun Apr  7 16:57:13 WEST 2013
+        - require a specific Term::ANSIColor version
+
 0.0003  Fri Jun  8 22:04:09 WEST 2012
         - fix POD encoding.
 

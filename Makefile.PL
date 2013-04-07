@@ -13,7 +13,7 @@ WriteMakefile(
     PREREQ_PM => {
                   'Test::More'      => 0,
                   'Dancer'          => '1.3060',
-                  'Term::ANSIColor' => 0,
+                  'Term::ANSIColor' => '4.00',
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Dancer-Logger-ColorConsole-*' },
