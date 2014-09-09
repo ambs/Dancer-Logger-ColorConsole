@@ -17,4 +17,16 @@ WriteMakefile(
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Dancer-Logger-ColorConsole-*' },
+    META_MERGE =>
+          {
+           "meta-spec" => { version => 2 },
+           resources =>
+           {
+            repository => 
+            {
+             type => 'git',
+             web => 'https://github.com/ambs/Dancer-Logger-ColorConsole',
+            },
+           },
+          },
 );

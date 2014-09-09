@@ -1,5 +1,9 @@
 Revision history for Dancer-Logger-ColorConsole
 
+0.0005  Tue Sep  9 11:02:18 WEST 2014
+        - Added color to info log level [Pierre Vigier].
+        - Added metadata for metacpan et al.
+
 0.0004  Sun Apr  7 16:57:13 WEST 2013
         - require a specific Term::ANSIColor version
 

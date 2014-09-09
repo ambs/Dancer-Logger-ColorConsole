@@ -5,7 +5,7 @@ use base 'Dancer::Logger::Abstract';
 use Dancer::Config 'setting';
 use Term::ANSIColor;
 
-our $VERSION = '0.0004';
+our $VERSION = '0.0005';
 
 sub _log {
     my ($self, $level, $message) = @_;
